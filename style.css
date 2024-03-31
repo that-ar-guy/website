@@ -209,6 +209,7 @@ nav ul li a:hover::after{
     text-decoration: none;
 }
 .right-desc{
+    padding-top: 15px;
     padding-left: 10px;
     margin-top: 10px;
     color:white;
