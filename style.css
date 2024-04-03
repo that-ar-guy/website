@@ -73,6 +73,34 @@ nav ul li a:hover::after{
     width: 100%;;
 }
 
+nav ul li a svg{
+    color: white;
+}
+
+.sidebar{
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    position: fixed;
+    backdrop-filter: blur(10px);
+    z-index: 999;
+    background-color: #b8b2b4;
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.sidebar li{
+    width: 100%;
+
+}
+
+.sidebar a{
+    width: 100%;
+}
+
 .header-text{
     margin-top: 10%;
     font-size: 30px;
@@ -638,3 +666,31 @@ justify-content: center;
     text-decoration: none;
     
  }
+
+ @media(max-width:700px){
+    .hideOnMobile{
+        display: none;
+    }
+}
+@media(min-width:700px){
+   svg{
+       display: none;
+   }
+}
+
+@media(max-width:700px){
+    #header{
+        background-image: none;
+        background-color: #080800;
+    }
+}
+
+ @media(max-width:400px){
+    .sidebar{
+        width: 100%;
+    }
+ }
+
+
+
+ 
