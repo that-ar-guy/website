@@ -78,8 +78,7 @@ nav ul li a svg{
 }
 
 .sidebar{
-    top: 0;
-    right: 0;
+    top: 0;;
     height: 100vh;
     width: 250px;
     position: fixed;
@@ -744,7 +743,8 @@ justify-content: center;
     }
  } */
 
-@media(max-width:600px){
+@media(max-width:320px){
+    /*contacts*/
     .contact-left{
         height: 50vh;
         width: 100%;
@@ -761,6 +761,61 @@ justify-content: center;
         align-items: center;
         justify-content: center;
     }
-}
+    /*projects*/
+    .project-container{
+        width: 100%;
+        float: none;
+    }
+    #project-1 {
+        width: 100%;
+    }
+    #project-2{
+        width: 100%;
+    }
+    #project-3{
+        width: 100%;
+    }
+    #project-4{
+        width: 100%;
+    }
+    .projects{
+        height: 200vh;
+    }
+    .right-desc p{
+        display: none;
+    }
+    .right-title{
+        padding-top: 25px;
+    }
+    /*SKILSS*/
+    .skills{
+        height: 180vh;
+    }
+     .skill-main{
+        margin-top: 0;
+        display: block;
+     }
+     .skill-bar{
+        margin: 40px 0px;
+     }
+     /*EDUCATION*/
+     .checkpoint:nth-child(odd){
+
+        width: 100%;
+        border-left: none;
+        transform: translateX(-1rem);
+     }
+     .checkpoint:nth-child(odd)::before, .checkpoint:nth-child(even)::before{
+        content: normal;
+     }
+     .checkpoint:nth-child(even) {
+        padding-right: 3em;
+        transform: translateX(2.15em);
+    }
+    .contact{
+        height: 152vh;
+    }
+    }
+
 
  
