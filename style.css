@@ -799,7 +799,7 @@ justify-content: center;
     }
  } */
 
-@media(max-width:350px){
+@media(max-width:400px){
     /*contacts*/
     
     
@@ -860,24 +860,5 @@ justify-content: center;
     }
     }
 
-@media (max-width: 985px) {
-    .text {
-      font-size: 14px; 
-    }
-    #header{
-        background-image: url(none);
-    }
-    .checkpoint{
-        max-width: 25em;
-    }
-    
-   
 
-  @media (max-width:935px) {
-   /* .right-desc{
-        display:none
-    }
-    .right-title{
-        padding-top: 44px;
-    }*/
-}}
+ 
