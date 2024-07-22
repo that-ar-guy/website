@@ -80,11 +80,11 @@ nav ul li a svg{
 .sidebar{
     top: 0;;
     height: 100vh;
-    width: 250px;
+    width:100vw;
     position: fixed;
     backdrop-filter: blur(10px);
     z-index: 999;
-    background-color: #b8b2b4;
+   
     display: none;
     flex-direction: column;
     align-items: flex-start;
@@ -705,6 +705,62 @@ justify-content: center;
     
  }
 
+/*media queries */
+@media(max-width:321px){
+    .header-text #main{
+        font-size: 25px;
+    }
+    .header-text p{
+        font-size: 20px;
+    }
+    .header-text h3{
+        font-size: 20px;
+    }
+    .right-title {
+        font-size: 14px;
+        padding-top: 23px;
+    }
+    .skill-bar{
+        margin-top: 20px;
+    }
+    .skill-main{
+        font-size: 12px;
+        margin-top: -20px;
+        display: block;
+     }
+     .toggle{
+        width: 70px;
+        height:70px;
+     }
+    .contact-input{
+        width: 358px;
+        height: 34px;
+    }
+    .contact-right {
+        width: 100%;
+    }
+    .contact-left{
+        height: 50vh;
+        width: 100%;
+    }
+    
+    .form-container {
+        align-items: center;
+        justify-content: center;
+    }
+    .form-container button {
+        font-size: 12px;
+    }
+    .download{
+        width: 60%;
+    }
+    .download a{
+        font-size: 12px;
+    }
+    .checkpoint div{
+        font-size: 12px;
+    }
+}
  @media(max-width:700px){
     .hideOnMobile{
         display: none;
@@ -745,22 +801,14 @@ justify-content: center;
 
 @media(max-width:350px){
     /*contacts*/
-    .contact-left{
-        height: 50vh;
-        width: 100%;
-    }
-    .contact-right{
-        width: 100%;
-    }
+    
+    
     .contact-input{
         margin-top: 0;
         height: 30px;
         width: 210px;
     }
-    .form-container{
-        align-items: center;
-        justify-content: center;
-    }
+    
     /*projects*/
     .project-container{
         width: 100%;
@@ -784,20 +832,15 @@ justify-content: center;
     .right-desc p{
         display: none;
     }
-    .right-title{
-        padding-top: 25px;
-    }
+    
     /*SKILSS*/
     .skills{
         height: 180vh;
     }
-     .skill-main{
-        margin-top: 0;
-        display: block;
-     }
-     .skill-bar{
-        margin: 40px 0px;
-     }
+    .checkpoint:nth-child(even) {
+        transform: translateX(2.15em);
+    }
+    
      /*EDUCATION*/
      .checkpoint:nth-child(odd){
 
@@ -817,5 +860,24 @@ justify-content: center;
     }
     }
 
+@media (max-width: 985px) {
+    .text {
+      font-size: 14px; 
+    }
+    #header{
+        background-image: url(none);
+    }
+    .checkpoint{
+        max-width: 25em;
+    }
+    
+   
 
- 
+  @media (max-width:935px) {
+   /* .right-desc{
+        display:none
+    }
+    .right-title{
+        padding-top: 44px;
+    }*/
+}}
