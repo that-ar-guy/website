@@ -84,7 +84,6 @@ nav ul li a svg{
     position: fixed;
     backdrop-filter: blur(10px);
     z-index: 999;
-   
     display: none;
     flex-direction: column;
     align-items: flex-start;
@@ -782,17 +781,7 @@ justify-content: center;
         overflow-x: hidden;
     }
 }
-@media(max-width:330px){
-    .header-text #main{
-        font-size: 25px;
-    }
-    .header-text p{
-        font-size: 20px;
-    }
-    .header-text h3{
-        font-size: 20px;
-    }
-}
+
  /* @media(max-width:400px){
     .sidebar{
         width: 100%;
