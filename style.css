@@ -760,6 +760,121 @@ justify-content: center;
         font-size: 12px;
     }
 }
+
+@media (max-width:426px){
+    .header-text #main {
+        font-size: 25px;
+    }
+    .checkpoint:nth-child(odd) {
+        border-left: none;
+        padding-left: 3em;
+        transform: translateX(0em);
+    }
+    
+
+.checkpoint:nth-child(odd)::before, .checkpoint:nth-child(even)::before {
+    content: none;
+}
+.checkpoint:nth-child(even) {
+    border-right: none;
+    padding-right: 3em;
+    transform: translateX(3.15em);
+}
+.contact-input{
+    margin-top: 0;
+    height: 30px;
+    width: 80%;
+}
+
+/*projects*/
+.project-container{
+    width: 100%;
+    float: none;
+}
+#project-1 {
+    width: 100%;
+}
+#project-2{
+    width: 100%;
+}
+#project-3{
+    width: 100%;
+}
+#project-4{
+    width: 100%;
+}
+.projects{
+    height: 200vh;
+}
+.right-desc p{
+    display: none;
+}
+
+/*SKILSS*/
+.skills{
+    height: 180vh;
+}
+.skill-main {
+    font-size: 12px;
+    margin-top: -20px;
+    display: block;
+}
+.skill-main .skill-bar .info {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 10px;
+}
+.checkpoint:nth-child(even) {
+    transform: translateX(2.15em);
+}
+
+ /*EDUCATION*/
+ .checkpoint:nth-child(odd){
+
+    width: 100%;
+    border-left: none;
+    transform: translateX(-1rem);
+ }
+ .checkpoint:nth-child(odd)::before, .checkpoint:nth-child(even)::before{
+    content: normal;
+ }
+ .checkpoint:nth-child(even) {
+    padding-right: 3em;
+    transform: translateX(2.15em);
+}
+.toggle{
+    width: 70px;
+    height: 70px;
+}
+.contact{
+    height: 152vh;
+}
+.contact-left {
+    height: 50vh;
+    width: 100%;
+}
+.contact-right{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.form-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    
+}
+
+}
+@media (min-width:427px){
+    .checkpoint:nth-child(odd) {
+        width: 60%;
+    }
+    .checkpoint:nth-child(even) {
+        width: 60%;
+        transform: translateX(-53.99px);
+}
  @media(max-width:700px){
     .hideOnMobile{
         display: none;
@@ -792,62 +907,8 @@ justify-content: center;
     /*contacts*/
     
     
-    .contact-input{
-        margin-top: 0;
-        height: 30px;
-        width: 210px;
-    }
-    
-    /*projects*/
-    .project-container{
-        width: 100%;
-        float: none;
-    }
-    #project-1 {
-        width: 100%;
-    }
-    #project-2{
-        width: 100%;
-    }
-    #project-3{
-        width: 100%;
-    }
-    #project-4{
-        width: 100%;
-    }
-    .projects{
-        height: 200vh;
-    }
-    .right-desc p{
-        display: none;
-    }
-    
-    /*SKILSS*/
-    .skills{
-        height: 180vh;
-    }
-    .checkpoint:nth-child(even) {
-        transform: translateX(2.15em);
-    }
-    
-     /*EDUCATION*/
-     .checkpoint:nth-child(odd){
-
-        width: 100%;
-        border-left: none;
-        transform: translateX(-1rem);
-     }
-     .checkpoint:nth-child(odd)::before, .checkpoint:nth-child(even)::before{
-        content: normal;
-     }
-     .checkpoint:nth-child(even) {
-        padding-right: 3em;
-        transform: translateX(2.15em);
-    }
-    .contact{
-        height: 152vh;
-    }
     }
 
 
  
+}
