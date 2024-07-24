@@ -13,40 +13,45 @@
         <div class="container">
             <nav>
                 <img src="images/logo.png" alt="" class="logo" width="100px" height="100px">
-                
+
+               
+                <ul class="sidebar">
+                    <li onclick="hideSidebar()"><a href=""><svg xmlns="http://www.w3.org/2000/svg" width="28"
+                                height="28" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                                <path
+                                    d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708" />
+                            </svg></a></li>
+                    <li onclick="hideSidebar()"><a href="#projects">PROJECTS</a></li>
+                    <li onclick="hideSidebar()"><a href="#skills">SKILLS</a></li>
+                    <li onclick="hideSidebar()"><a href="#education">EDUCATION</a></li>
+                    <li onclick="hideSidebar()"><a href="#contact">CONTACT</a></li>
+                </ul>
                 <ul>
                     <li class="hideOnMobile"><a class="text" href="">HOME</a></li>
                     <li class="hideOnMobile"><a class="text" href="#projects">PROJECTS</a></li>
                     <li class="hideOnMobile"><a class="text" href="#skills">SKILLS</a></li>
                     <li class="hideOnMobile"><a class="text" href="#education">EDUCATION</a></li>
                     <li class="hideOnMobile"><a class="text" href="#contact">CONTACT</a></li>
-                    <li  onclick="showSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
-                      </svg></a></li>
-                </ul>
-                <ul class="sidebar">
-                    <li onclick="hideSidebar()"><a href=""><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
-                        <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"/>
-                      </svg></a></li>
-                    <li  onclick="hideSidebar()"><a href="#projects">PROJECTS</a></li>
-                    <li onclick="hideSidebar()"><a href="#skills">SKILLS</a></li>
-                    <li onclick="hideSidebar()"><a href="#education">EDUCATION</a></li>
-                    <li onclick="hideSidebar()"><a href="#contact">CONTACT</a></li>
+                    <li class="menuButton" onclick="showSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg"
+                                width="23" height="23" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+                            </svg></a></li>
                 </ul>
             </nav>
             <div class="header-text">
                 <p>Hi, I am <br> </p>
                 <span id="main"> MOHAMMED ABDUL RAHMAN</span><br>
                 <h3>I'm a <span class="auto-type">Programmer</span></h3>
-               
-                </div>
+
             </div>
         </div>
+    </div>
     </div>
     <div class="sp1" id="sp1" style="background: color #080808;;">
 
     </div>
-    
+
     <div class="projects" id="projects">
         <div class="project-title">
             <h1 id="">PROJECTS</h1>
@@ -65,7 +70,9 @@
                             </div>
                             <div class="right-desc">
                                 <p>
-                                    RepXplorer is a web-based application designed to track and count bicep curls and squats using a camera. It will provide real-time feedback on the number of curls detected</p>
+                                    RepXplorer is a web-based application designed to track and count bicep curls and
+                                    squats using a camera. It will provide real-time feedback on the number of curls
+                                    detected</p>
                             </div>
                         </div>
                 </div>
@@ -83,7 +90,8 @@
                                 <h2>University Results Scrapper</h2>
                             </div>
                             <div class="right-desc">
-                                <P>This project scraps the results from Osmania university results website and displays them in a tabular form</P>
+                                <P>This project scraps the results from Osmania university results website and displays
+                                    them in a tabular form</P>
                             </div>
                         </div>
                 </div>
@@ -100,7 +108,9 @@
                                 <h2>Real Time Face Detection</h2>
                             </div>
                             <div class="right-desc">
-                                <p> Real-Time Face Detection uses OpenCV for real-time face detection in webcam video streams. Offering seamless and accurate face detection capabilities that terminate on user command</p>
+                                <p> Real-Time Face Detection uses OpenCV for real-time face detection in webcam video
+                                    streams. Offering seamless and accurate face detection capabilities that terminate
+                                    on user command</p>
                             </div>
                         </div>
                 </div>
@@ -118,7 +128,8 @@
                                 </h2>
                             </div>
                             <div class="right-desc">
-                                <p> The spam classifier, built with Streamlit, NLTK, and a machine learning model, categorizes user-input messages as either spam or non-spam (ham)</p>
+                                <p> The spam classifier, built with Streamlit, NLTK, and a machine learning model,
+                                    categorizes user-input messages as either spam or non-spam (ham)</p>
                             </div>
                         </div>
 
@@ -213,12 +224,12 @@
     </div>
 
     <div class="space">
-        
+
     </div>
 
     <div class="education">
         <div id="education" class="education-title">
-            <h1 ><b>EDUCATION</b></h1>
+            <h1><b>EDUCATION</b></h1>
         </div>
         <div class="timeline">
             <div class="checkpoint">
@@ -240,7 +251,7 @@
             </div>
             <div class="checkpoint">
                 <div>
-                    <h3> Nawab Shah Alam Khan College of Engineering and Technology  [2021-2025]</h3>
+                    <h3> Nawab Shah Alam Khan College of Engineering and Technology [2021-2025]</h3>
                     <p>
                         CSE AIML <br>
                         CGPA: <b>8.7</b>
@@ -262,13 +273,16 @@
             <div class="menu">
                 <div class="toggle"><ion-icon name="add-outline"></ion-icon></div>
                 <li style="--i:0">
-                    <a href="https://www.linkedin.com/in/mohammed-abdul-rahman-710a74250/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+                    <a href="https://www.linkedin.com/in/mohammed-abdul-rahman-710a74250/" target="_blank"><ion-icon
+                            name="logo-linkedin"></ion-icon></a>
                 </li>
                 <li style="--i:1">
-                    <a href="https://www.instagram.com/that.ar.guy/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+                    <a href="https://www.instagram.com/that.ar.guy/" target="_blank"><ion-icon
+                            name="logo-instagram"></ion-icon></a>
                 </li>
                 <li style="--i:2">
-                    <a href="https://github.com/that-ar-guy" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+                    <a href="https://github.com/that-ar-guy" target="_blank"><ion-icon
+                            name="logo-github"></ion-icon></a>
                 </li>
                 <li style="--i:3">
                     <a href="mohdarahman124@gmail.com" target="_blank"><ion-icon name="mail-outline"></ion-icon></a>
@@ -280,15 +294,17 @@
             <div class="form-cont">
                 <form action="https://api.web3forms.com/submit" method="POST" class="form-container">
                     <input type="hidden" name="access_key" value="76f4f2cd-f608-43ab-90e0-f531ca30d88f">
-                    <input type="text" name="name" class="contact-input"  placeholder="Your Name" required><br>
+                    <input type="text" name="name" class="contact-input" placeholder="Your Name" required><br>
                     <input type="email" name="email" class="contact-input" placeholder="Your Email" required>
-                    <br><textarea placeholder="Your Message" name="message" id="" class="contact-input" cols="30" rows="10" required></textarea>
-                    <br> 
+                    <br><textarea placeholder="Your Message" name="message" id="" class="contact-input" cols="30"
+                        rows="10" required></textarea>
+                    <br>
                     <div class="last-cont">
                         <button type="submit"><b>SUBMIT</b>
 
                         </button>
-                         <div class="download"><a href="images/AR_CV.pdf" download="download"><B>DOWNLOAD CV</B></a></div>
+                        <div class="download"><a href="images/AR_CV.pdf" download="download"><B>DOWNLOAD CV</B></a>
+                        </div>
                     </div>
                 </form>
             </div>
@@ -305,30 +321,30 @@
 
     </script>
     <script>
-        let toggle=document.querySelector('.toggle');
-        let menu=document.querySelector('.menu');
-        toggle.onclick=function(){
+        let toggle = document.querySelector('.toggle');
+        let menu = document.querySelector('.menu');
+        toggle.onclick = function () {
             menu.classList.toggle('active')
         }
 
     </script>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script>
-        var typed =new Typed('.auto-type',{
-            strings:['Programmer','Coder','Engineer'],
+        var typed = new Typed('.auto-type', {
+            strings: ['Programmer', 'Coder', 'Engineer'],
             TypeSpeed: 200,
-            BackSpeed:200,
-            loop:true
+            BackSpeed: 200,
+            loop: true
         })
     </script>
     <script>
-        function showSidebar(){
-            const sidebar=document.querySelector(".sidebar");
-            sidebar.style.display='flex'
+        function showSidebar() {
+            const sidebar = document.querySelector(".sidebar");
+            sidebar.style.display = 'flex'
         }
-        function hideSidebar(){
-            const sidebar=document.querySelector(".sidebar");
-            sidebar.style.display='none'
+        function hideSidebar() {
+            const sidebar = document.querySelector(".sidebar");
+            sidebar.style.display = 'none'
         }
     </script>
 </body>

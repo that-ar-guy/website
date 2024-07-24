@@ -52,6 +52,9 @@ nav ul li{
     margin: 10px 20px;
 }
 
+.menuButton{
+    display: none;
+}
 nav ul li a{
     color: white;
     text-decoration: none;
@@ -762,23 +765,35 @@ justify-content: center;
 }
 
 @media (max-width:426px){
+    #header{
+        background-image: url(none);
+    }
+    .menuButton{
+        display: block;
+    }
     .header-text #main {
         font-size: 25px;
     }
-    .checkpoint:nth-child(odd) {
-        border-left: none;
-        padding-left: 3em;
-        transform: translateX(0em);
+    .hideOnMobile{
+        display: none;
     }
+    
     
 
 .checkpoint:nth-child(odd)::before, .checkpoint:nth-child(even)::before {
     content: none;
 }
+.checkpoint:nth-child(odd) {
+    width: 80%;
+    border-left: none;
+    padding-left: 3em;
+    transform: translateX(1em);
+}
 .checkpoint:nth-child(even) {
+    width: 80%;
     border-right: none;
     padding-right: 3em;
-    transform: translateX(3.15em);
+    transform: translateX(4.15em);
 }
 .contact-input{
     margin-top: 0;
@@ -824,24 +839,13 @@ justify-content: center;
     justify-content: space-between;
     padding: 13px 10px;
 }
-.checkpoint:nth-child(even) {
-    transform: translateX(2.15em);
-}
 
  /*EDUCATION*/
- .checkpoint:nth-child(odd){
-
-    width: 100%;
-    border-left: none;
-    transform: translateX(-1rem);
- }
+ 
  .checkpoint:nth-child(odd)::before, .checkpoint:nth-child(even)::before{
     content: normal;
  }
- .checkpoint:nth-child(even) {
-    padding-right: 3em;
-    transform: translateX(2.15em);
-}
+ 
 .toggle{
     width: 70px;
     height: 70px;
@@ -875,17 +879,9 @@ justify-content: center;
         width: 60%;
         transform: translateX(-53.99px);
 }
- @media(max-width:700px){
-    .hideOnMobile{
-        display: none;
-    }
-}
-@media(min-width:700px){
-   svg{
-        
-       display: none;
-   }
-}
+
+
+
 
 @media(max-width:700px){
     #header{
@@ -894,6 +890,9 @@ justify-content: center;
     }
     body{
         overflow-x: hidden;
+    }
+    .education{
+        height: 120vh;
     }
 }
 
