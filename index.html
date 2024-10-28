@@ -5,7 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>that-ar-guy</title>
-    <link rel="stylesheet" href="style.css">
+
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/animation.css">
 </head>
 
 <body>
@@ -14,7 +18,7 @@
             <nav>
                 <img src="images/logo.png" alt="" class="logo" width="100px" height="100px">
 
-               
+
                 <ul class="sidebar">
                     <li onclick="hideSidebar()"><a href=""><svg xmlns="http://www.w3.org/2000/svg" width="28"
                                 height="28" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
@@ -303,7 +307,7 @@
                         <button type="submit"><b>SUBMIT</b>
 
                         </button>
-                        <div class="download"><a href="images/AR_CV.pdf" download="download"><B>DOWNLOAD CV</B></a>
+                        <div class="download"><a href="/images/CV Mohammed Abdul Rahman  - Copy.pdf" download="download"><B>DOWNLOAD CV</B></a>
                         </div>
                     </div>
                 </form>
@@ -313,40 +317,13 @@
     <footer>
         made with love by<a href="https://github.com/that-ar-guy" target="_blank">that-ar-guy</a>
     </footer>
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js">
-
-
-    </script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js">
-
-    </script>
-    <script>
-        let toggle = document.querySelector('.toggle');
-        let menu = document.querySelector('.menu');
-        toggle.onclick = function () {
-            menu.classList.toggle('active')
-        }
-
-    </script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="/js/menuToggle.js"></script>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-    <script>
-        var typed = new Typed('.auto-type', {
-            strings: ['Programmer', 'Coder', 'Engineer'],
-            TypeSpeed: 200,
-            BackSpeed: 200,
-            loop: true
-        })
-    </script>
-    <script>
-        function showSidebar() {
-            const sidebar = document.querySelector(".sidebar");
-            sidebar.style.display = 'flex'
-        }
-        function hideSidebar() {
-            const sidebar = document.querySelector(".sidebar");
-            sidebar.style.display = 'none'
-        }
-    </script>
+    <script src="/js/sidebarToggle.js"></script>
+    <script src="/js/typedAnimations.js"></script>
+
 </body>
 
 </html>
