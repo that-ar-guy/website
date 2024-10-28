@@ -227,7 +227,6 @@
   /*skills section*/
   
   .skills {
-    background: linear-gradient(90deg, #000000, #737373);
     width: 100%;
     height: 100vh;
   }
@@ -323,7 +322,7 @@
   }
   
   /*education*/
-  
+/*   
   .education {
     background: linear-gradient(90deg, #000000, #737373);
     padding: 0px 15px;
@@ -401,8 +400,91 @@
   
   .checkpoint:nth-child(even)::before {
     right: 0;
-  }
+  } */
   
+
+
+  /* new EDU AND EXP */
+
+.eduexp {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.econtainer{
+    width: 100%;
+    padding: 35px 10%;
+}
+.econtainer{
+    padding-right: calc(10% - 30px);
+}
+main.row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+}
+
+col header.title{
+    color: #f0004f;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px 0px 20px 30px;
+}
+.col .contents{
+    padding:0px 30px;
+    border-left: 2px solid white;
+}
+.col .contents .box{
+    position: relative;
+    padding:  20px;
+    border: 1px solid #f0004f;
+    cursor: pointer;
+    transition: all 0.4s;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+.col .contents .box:hover{
+    box-shadow: 0px 3px 12px 0px #f0004f;
+    border: 1px solid transparent;
+}
+.col .contents .box:before{
+    content: ' ';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    right: calc(100% + 22px);
+    top: 0;
+    background-color: #f0004f;
+    border: 2px solid #f0004f;
+}
+.box h4{
+    position: relative;
+    color: #f0004f;
+}
+.box h3{
+    font-size: 13px;
+    padding: 10px 0px 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+.box p{
+    line-height: 1.2;
+    color: rgb(246, 211, 211);
+}
+/*  edu exp responsive ness */
+@media (max-width:768px){
+    main.row{
+        grid-template-columns: 1fr;
+    }
+    .row .col:nth-child(2){
+        margin-top: 30px;
+    }
+}
+
   /* CONTACT */
   
   .contact {
