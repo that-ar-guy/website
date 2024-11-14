@@ -1,0 +1,96 @@
+@keyframes animate {
+  40%,
+  60% {
+    left: 100%;
+  }
+  100% {
+    left: 0%;
+  }
+}
+
+@keyframes cursor {
+  50% {
+    border-color: transparent;
+  }
+}
+@keyframes typing {
+  from {
+    width: 1px;
+  }
+}
+
+@keyframes neon-border-animation {
+  0% {
+    box-shadow: 0 0 10px #ff004f, 0 0 20px #ff004f, 0 0 30px #ff004f,
+      0 0 40px #ff004f, 0 0 70px #f0004f, 0 0 80px #ff004f, 0 0 100px #ff004f,
+      0 0 150px #ff004f;
+  }
+  100% {
+    box-shadow: 0 0 20px #ff004f, 0 0 30px #ff004f, 0 0 40px, 0 0 50px #ff004f,
+      0 0 80px #ff004f, 0 0 90px #ff004f, 0 0 110px #ff004f, 0 0 160px #ff004f;
+  }
+}
+@keyframes html {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 70%;
+  }
+}
+@keyframes css {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 50%;
+  }
+}
+@keyframes python {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 60%;
+  }
+}
+@keyframes flask {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 40%;
+  }
+}
+@keyframes git {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 70%;
+  }
+}
+@keyframes ml {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 50%;
+  }
+}
+@keyframes teamwork {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 80%;
+  }
+}
+@keyframes creativity {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 80%;
+  }
+}
