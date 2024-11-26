@@ -321,87 +321,6 @@ nav ul li a svg {
   animation: creativity 3s;
 }
 
-/*education*/
-/*   
-  .education {
-    background: linear-gradient(90deg, #000000, #737373);
-    padding: 0px 15px;
-    width: 100%;
-    height: 100vh;
-  }
-  
-  .education-title {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    width: 100%;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .education h2 {
-    margin-bottom: 1rem;
-  }
-  
-  .timeline {
-    margin: 2em auto;
-    max-width: 34.15em;
-  }
-  
-  .checkpoint {
-    max-width: 34em;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    position: relative;
-  }
-  .checkpoint div {
-    border: 1px solid #f0004f;
-    border-radius: 1em;
-    padding: 1.5em;
-    border: 2px solid #ff004f;
-    border-radius: 5px;
-    box-shadow: 0 0 10px #ff004f;
-    padding: 10px;
-    transition: box-shadow 0.3s ease-in-out;
-  }
-  .checkpoint div:hover {
-    box-shadow: 0 0 20px #ff004f;
-  }
-  .checkpoint p {
-    line-height: 20px;
-  }
-  
-  .checkpoint:nth-child(odd) {
-    border-left: 3px solid #f0004f;
-    padding-left: 3em;
-    transform: translateX(17em);
-  }
-  
-  .checkpoint:nth-child(even) {
-    border-right: 3px solid #f0004f;
-    padding-right: 3em;
-    transform: translateX(-3.20em);
-  }
-  
-  .checkpoint:nth-child(odd)::before,
-  .checkpoint:nth-child(even)::before {
-    content: "";
-    background: #f0004f;
-    width: 3em;
-    height: 3px;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-  }
-  
-  .checkpoint:nth-child(odd)::before {
-    left: 0;
-  }
-  
-  .checkpoint:nth-child(even)::before {
-    right: 0;
-  } */
-
 /* new EDU AND EXP */
 
 .eduexp {
@@ -856,14 +775,4 @@ footer {
   .education {
     height: 120vh;
   }
-}
-
-/* @media(max-width:400px){
-      .sidebar{
-          width: 100%;
-      }
-   } */
-
-@media (max-width: 400px) {
-  /*contacts*/
 }
